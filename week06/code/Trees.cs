@@ -16,7 +16,7 @@ public static class Trees
         int mid = (first + last) / 2;
         bst.Insert(sortedNumbers[mid]);
         
-        InsertMiddle(sortedNumbers, first, mid - 1, bst); // Left half
-        InsertMiddle(sortedNumbers, mid + 1, last, bst);  // Right half
+        InsertMiddle(sortedNumbers, first, mid - 1, bst); // Left half 1
+        InsertMiddle(sortedNumbers, mid + 1, last, bst);  // Right half 2
     }
 }
